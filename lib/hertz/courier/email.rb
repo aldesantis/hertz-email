@@ -8,6 +8,12 @@ module Hertz
   module Courier
     module Email
       class << self
+        mattr_writer :base_mailer
+
+        def base_mailer
+          (@base_mailer || '::ApplicationMailer').constantize
+        end
+
         def configure
           yield(self)
         end

@@ -6,7 +6,11 @@ module Hertz
         queue_as :default
 
         def perform(notification)
-          # ...
+          return unless notification.receiver.hertz_email.present?
+
+          Hertz::Courier::Email::NotificationMailer
+            .notification_email(notification)
+            .deliver_now
         end
       end
     end
