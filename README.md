@@ -1,5 +1,6 @@
 # Hertz::Courier::Email
 
+[![Gem Version](https://badge.fury.io/rb/hertz-courier-email.svg)](https://badge.fury.io/rb/hertz-courier-email)
 [![Dependency Status](https://gemnasium.com/badges/github.com/alessandro1997/hertz-courier-email.svg)](https://gemnasium.com/github.com/alessandro1997/hertz-courier-email)
 [![Code Climate](https://codeclimate.com/github/alessandro1997/hertz-courier-email/badges/gpa.svg)](https://codeclimate.com/github/alessandro1997/hertz-courier-email)
 
