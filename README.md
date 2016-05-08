@@ -32,6 +32,33 @@ Then, run the installer generator:
 $ rails g hertz:courier:email:install
 ```
 
+You will also need to expose the `hertz_email` method in your receiver class:
+
+```ruby
+class User < ActiveRecord::Base
+  include Hertz::Notifiable
+
+  def hertz_email
+    email
+  end
+end
+```
+
+If `#hertz_email` returns an empty value (i.e. `false`, `nil` or an empty
+string) at the time the job is executed, the notification will not be delivered.
+This allows you to programmatically enable/disable email notifications for a
+user:
+
+```ruby
+class User
+  include Hertz::Notifiable
+
+  def hertz_email
+    email if email_verified?
+  end
+end
+```
+
 ## Usage
 
 In order to use this courier, add `:email` to `deliver_by` in the notification
@@ -43,17 +70,7 @@ class CommentNotification < Hertz::Notification
 end
 ```
 
-You will also need to expose the `hertz_email` method in your receiver class:
-
-```ruby
-class User < ActiveRecord::Base
-  def hertz_email
-    email
-  end
-end
-```
-
-And the `email_subject` method in your notification class:
+Now, add the `email_subject` method in your notification class:
 
 ```ruby
 class CommentNotification < Hertz::Notification
