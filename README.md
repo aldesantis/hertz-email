@@ -92,6 +92,9 @@ For `CommentNotification` you'd create a template at
 
 As you can see, templates have access to the `@notification` instance variable.
 
+**NOTE:** This courier uses the [deliveries API](https://github.com/alessandro1997/hertz#tracking-delivery-status)
+to prevent double deliveries.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at
@@ -101,7 +104,3 @@ https://github.com/alessandro1997/hertz-courier-email.
 
 The gem is available as open source under the terms of the
 [MIT License](http://opensource.org/licenses/MIT).
-
-# To do
-
-- [ ] Store notification delivery in the DB to avoid resending
