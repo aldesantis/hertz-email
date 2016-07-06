@@ -1,8 +1,8 @@
 # Hertz::Courier::Email
 
-[![Gem Version](https://badge.fury.io/rb/hertz-courier-email.svg)](https://badge.fury.io/rb/hertz-courier-email)
-[![Dependency Status](https://gemnasium.com/badges/github.com/alessandro1997/hertz-courier-email.svg)](https://gemnasium.com/github.com/alessandro1997/hertz-courier-email)
-[![Code Climate](https://codeclimate.com/github/alessandro1997/hertz-courier-email/badges/gpa.svg)](https://codeclimate.com/github/alessandro1997/hertz-courier-email)
+[![Gem Version](https://img.shields.io/gem/v/hertz-courier-email-courier-email.svg?maxAge=2592000&style=flat-square)](https://rubygems.org/gems/hertz-courier-email)
+[![Dependency Status](https://img.shields.io/gemnasium/alessandro1997/hertz-courier-email.svg?maxAge=2592000&style=flat-square)](https://gemnasium.com/github.com/alessandro1997/hertz-courier-email)
+[![Code Climate](https://img.shields.io/codeclimate/github/alessandro1997/hertz-courier-email.svg?maxAge=2592000&style=flat-square)](https://codeclimate.com/github/alessandro1997/hertz-courier-email)
 
 This is a [Hertz](https://github.com/alessandro1997/hertz) courier for sending
 notifications to your users via email throuh ActionMailer.
