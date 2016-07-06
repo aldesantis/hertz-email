@@ -1,6 +1,6 @@
 # Hertz::Courier::Email
 
-[![Gem Version](https://img.shields.io/gem/v/hertz-courier-email-courier-email.svg?maxAge=2592000&style=flat-square)](https://rubygems.org/gems/hertz-courier-email)
+[![Gem Version](https://img.shields.io/gem/v/hertz-courier-email.svg?maxAge=2592000&style=flat-square)](https://rubygems.org/gems/hertz-courier-email)
 [![Dependency Status](https://img.shields.io/gemnasium/alessandro1997/hertz-courier-email.svg?maxAge=2592000&style=flat-square)](https://gemnasium.com/github.com/alessandro1997/hertz-courier-email)
 [![Code Climate](https://img.shields.io/codeclimate/github/alessandro1997/hertz-courier-email.svg?maxAge=2592000&style=flat-square)](https://codeclimate.com/github/alessandro1997/hertz-courier-email)
 
