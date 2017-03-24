@@ -4,11 +4,12 @@ module Hertz
     module Email
       RSpec.describe NotificationMailer do
         describe '.notification_email' do
+          subject(:email) { described_class.notification_email(notification) }
+
           let(:notification) { build_stubbed(:test_notification) }
-          subject { described_class.notification_email(notification) }
 
           it 'sends the email to the receiver' do
-            expect(subject.to).to eq([notification.receiver.email])
+            expect(email.to).to eq([notification.receiver.email])
           end
         end
       end

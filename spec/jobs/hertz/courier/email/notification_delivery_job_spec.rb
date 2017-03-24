@@ -3,11 +3,11 @@ module Hertz
   module Courier
     module Email
       RSpec.describe NotificationDeliveryJob do
-        let(:notification) { build_stubbed(:test_notification) }
-
         subject { described_class.new }
 
-        before(:each) do
+        let(:notification) { build_stubbed(:test_notification) }
+
+        before do
           allow(notification).to receive(:delivered_with?)
             .with(:email)
             .and_return(false)
@@ -31,7 +31,7 @@ module Hertz
         end
 
         context 'when the receiver does not have an email' do
-          before(:each) do
+          before do
             allow(notification.receiver).to receive(:hertz_email)
               .and_return(false)
           end
@@ -44,7 +44,7 @@ module Hertz
         end
 
         context 'when the notification was already delivered by email' do
-          before(:each) do
+          before do
             allow(notification).to receive(:delivered_with?)
               .with(:email)
               .and_return(true)

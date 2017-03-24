@@ -9,9 +9,7 @@ module Hertz
           return unless notification.receiver.hertz_email.present?
           return if notification.delivered_with?(:email)
 
-          Hertz::Courier::Email::NotificationMailer
-            .notification_email(notification)
-            .deliver_now
+          Hertz::Courier::Email::NotificationMailer.notification_email(notification).deliver_now
 
           notification.mark_delivered_with(:email)
         end
