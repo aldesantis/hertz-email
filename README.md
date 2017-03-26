@@ -33,8 +33,8 @@ Then, run the installer generator:
 $ rails g hertz:courier:email:install
 ```
 
-You will also need to expose the `hertz_email` method in your receiver class.
-This can be either a single email or an array of emails:
+You will also need to expose the `hertz_email` method in your receiver class. This can be either a single email or an 
+array of emails:
 
 ```ruby
 class User < ActiveRecord::Base
@@ -46,10 +46,9 @@ class User < ActiveRecord::Base
 end
 ```
 
-If `#hertz_email` returns an empty value (i.e. `false`, `nil`, an empty
-string or an empty array) at the time the job is executed, the notification
-will not be delivered. This allows you to programmatically enable/disable
-email notifications for a user:
+If `#hertz_email` returns an empty value (i.e. `false`, `nil`, an empty string or an empty array) at the time the job is 
+executed, the notification will not be delivered. This allows you to programmatically enable/disable email notifications 
+for a user:
 
 ```ruby
 class User
@@ -75,7 +74,7 @@ end
 
 ## Usage
 
-In order to use this courier, add `:email` to `deliver_by` in the notification model(s):
+In order to use this courier, add `:email` to `#deliver_by` in the notification model(s):
 
 ```ruby
 class CommentNotification < Hertz::Notification
@@ -83,7 +82,7 @@ class CommentNotification < Hertz::Notification
 end
 ```
 
-Now, add the `email_subject` method in your notification class:
+Now, add the `#email_subject` method in your notification class:
 
 ```ruby
 class CommentNotification < Hertz::Notification
@@ -106,9 +105,8 @@ class CommentNotification < Hertz::Notification
 end
 ```
 
-Finally, you should create a template for every notification you send by email.
-For `CommentNotification` you'd create a template at
-`app/views/hertz/courier/email/notification_mailer/comment_notification.html.erb`:
+Finally, you should create a template for every notification you send by email. For `CommentNotification` you'd create a
+template at `app/views/hertz/courier/email/notification_mailer/comment_notification.html.erb`:
 
 ```erb
 <p>Hey <%= @notification.receiver.hertz_email %>,</p>
@@ -122,10 +120,8 @@ to prevent double deliveries.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at
-https://github.com/alessandro1997/hertz-courier-email.
+Bug reports and pull requests are welcome on GitHub at https://github.com/alessandro1997/hertz-courier-email.
 
 ## License
 
-The gem is available as open source under the terms of the
-[MIT License](http://opensource.org/licenses/MIT).
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
