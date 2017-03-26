@@ -93,6 +93,19 @@ class CommentNotification < Hertz::Notification
 end
 ```
 
+You may also pass more options to the `#mail` method of the mailer by defining a `#email_options` method:
+
+```ruby
+class CommentNotification < Hertz::Notification
+  def email_options
+    {
+      # generate a custom Reply-To address for the receiver
+      reply_to: "replies+#{receiver.id}@example.com" 
+    }
+  end
+end
+```
+
 Finally, you should create a template for every notification you send by email.
 For `CommentNotification` you'd create a template at
 `app/views/hertz/courier/email/notification_mailer/comment_notification.html.erb`:
