@@ -4,8 +4,8 @@
 [![Dependency Status](https://img.shields.io/gemnasium/alessandro1997/hertz-courier-email.svg?maxAge=3600&style=flat-square)](https://gemnasium.com/github.com/alessandro1997/hertz-courier-email)
 [![Code Climate](https://img.shields.io/codeclimate/github/alessandro1997/hertz-courier-email.svg?maxAge=3600&style=flat-square)](https://codeclimate.com/github/alessandro1997/hertz-courier-email)
 
-This is a [Hertz](https://github.com/alessandro1997/hertz) courier for sending
-notifications to your users via email throuh ActionMailer.
+This is a [Hertz](https://github.com/alessandro1997/hertz) courier for sending email notifications to your users through
+ActionMailer.
 
 ## Installation
 
