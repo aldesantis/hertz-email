@@ -3,7 +3,7 @@
 module Hertz
   module Courier
     module Email
-      VERSION = '1.1.0'
+      VERSION = '1.1.1'
     end
   end
 end

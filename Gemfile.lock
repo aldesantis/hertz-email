@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    hertz-email (1.1.0)
+    hertz-email (1.1.1)
       hertz (~> 1.0)
       rails (>= 4.2.0, < 6)
 
