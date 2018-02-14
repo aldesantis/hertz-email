@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    hertz-courier-email (1.1.0)
+    hertz-email (1.1.0)
       hertz (~> 1.0)
       rails (>= 4.2.0, < 6)
 
@@ -168,7 +168,7 @@ DEPENDENCIES
   factory_bot_rails
   faker
   fuubar
-  hertz-courier-email!
+  hertz-email!
   pg (~> 0.21)
   rspec-activejob
   rspec-rails

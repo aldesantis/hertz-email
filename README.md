@@ -1,8 +1,9 @@
 # Hertz::Courier::Email
 
-[![Gem Version](https://img.shields.io/gem/v/hertz-courier-email.svg?maxAge=3600&style=flat-square)](https://rubygems.org/gems/hertz-courier-email)
-[![Dependency Status](https://img.shields.io/gemnasium/alessandro1997/hertz-courier-email.svg?maxAge=3600&style=flat-square)](https://gemnasium.com/github.com/alessandro1997/hertz-courier-email)
-[![Code Climate](https://img.shields.io/codeclimate/github/alessandro1997/hertz-courier-email.svg?maxAge=3600&style=flat-square)](https://codeclimate.com/github/alessandro1997/hertz-courier-email)
+[![Build Status](https://travis-ci.org/aldesantis/hertz-email.svg?branch=master)](https://travis-ci.org/aldesantis/hertz-email)
+[![Dependency Status](https://gemnasium.com/badges/github.com/aldesantis/hertz-email.svg)](https://gemnasium.com/github.com/aldesantis/hertz-email)
+[![Coverage Status](https://coveralls.io/repos/github/aldesantis/hertz-email/badge.svg?branch=master)](https://coveralls.io/github/aldesantis/hertz-email?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/e51e8d7489eb72ab97ba/maintainability)](https://codeclimate.com/github/aldesantis/hertz-email/maintainability)
 
 This is a [Hertz](https://github.com/alessandro1997/hertz) courier for sending email notifications to your users through
 ActionMailer.
@@ -12,7 +13,7 @@ ActionMailer.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'hertz-courier-email'
+gem 'hertz-email'
 ```
 
 And then execute:
@@ -24,7 +25,7 @@ $ bundle
 Or install it yourself as:
 
 ```console
-$ gem install hertz-courier-email
+$ gem install hertz-email
 ```
 
 Then, run the installer generator:
@@ -120,7 +121,7 @@ to prevent double deliveries.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/alessandro1997/hertz-courier-email.
+Bug reports and pull requests are welcome on GitHub at https://github.com/alessandro1997/hertz-email.
 
 ## License
 
