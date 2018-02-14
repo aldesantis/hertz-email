@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 module Hertz
   module Courier
     module Email
@@ -17,7 +18,9 @@ module Hertz
             template_name: view_for(notification)
           }
 
-          options = options.merge(notification.email_options) if notification.respond_to?(:email_options)
+          if notification.respond_to?(:email_options)
+            options = options.merge(notification.email_options)
+          end
 
           options
         end

@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 FactoryBot.define do
   factory :notification, class: 'Hertz::Notification' do
     association :receiver, factory: :user, strategy: :build
