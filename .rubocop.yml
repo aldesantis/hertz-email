@@ -12,42 +12,39 @@ AllCops:
    - 'spec/spec_helper.rb'
    - 'spec/rails_helper.rb'
    - 'spec/support/**/*'
-   - 'spec/dummy/**/*'
    - 'config/**/*'
-   - 'Rakefile'
-   - 'Gemfile'
-
-Style/Documentation:
-  Enabled: false
+   - '**/Rakefile'
+   - '**/Gemfile'
+   - 'spec/dummy/**/*'
 
 RSpec/DescribeClass:
   Exclude:
-    - 'spec/requests/*'
+    - 'spec/requests/**/*'
 
 Style/BlockDelimiters:
   Exclude:
     - 'spec/**/*'
 
-Style/AlignParameters:
+Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
-Style/ClosingParenthesisIndentation:
+Layout/ClosingParenthesisIndentation:
   Enabled: false
 
 Metrics/LineLength:
-  Max: 120
+  Max: 100
   AllowURI: true
 
-Style/FirstParameterIndentation:
+Layout/FirstParameterIndentation:
   Enabled: false
 
-Style/MultilineMethodCallIndentation:
+Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
 
-Style/IndentArray:
+Layout/IndentArray:
   EnforcedStyle: consistent
 
-Style/IndentHash:
+Layout/IndentHash:
   EnforcedStyle: consistent
 
 Style/SignalException:
@@ -63,13 +60,43 @@ Lint/EndAlignment:
 Style/AndOr:
   EnforcedStyle: conditionals
 
+Style/MultilineBlockChain:
+  Enabled: false
+
+RSpec/NamedSubject:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Enabled: false
+
+Layout/MultilineMethodCallBraceLayout:
+  Enabled: false
+
 Metrics/MethodLength:
-  Max: 15
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
 
 Metrics/BlockLength:
   Enabled: false
 
-RSpec/NamedSubject:
+Style/Documentation:
+  Enabled: false
+
+Naming/MethodName:
+  Enabled: false
+
+Naming/AccessorMethodName:
   Enabled: false
 
 RSpec/MessageSpies:

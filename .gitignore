@@ -6,3 +6,5 @@
 /spec/dummy/.sass-cache
 /spec/dummy/config/database.yml
 /spec/examples.txt
+.ruby-version
+/coverage

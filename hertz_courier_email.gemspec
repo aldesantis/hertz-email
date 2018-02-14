@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir['test/**/*']
 
   s.add_dependency 'rails', '>= 4.2.0', '< 6'
-  s.add_dependency 'hertz', '~> 1.0.1'
+  s.add_dependency 'hertz', '~> 1.0'
 
   s.add_development_dependency 'rubocop'
   s.add_development_dependency 'rubocop-rspec'
@@ -26,6 +26,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'fuubar'
   s.add_development_dependency 'faker'
   s.add_development_dependency 'database_cleaner'
-  s.add_development_dependency 'factory_girl_rails'
-  s.add_development_dependency 'pg'
+  s.add_development_dependency 'factory_bot_rails'
+  s.add_development_dependency 'pg', '~> 0.21'
 end
