@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/aldesantis/hertz-email.svg?branch=master)](https://travis-ci.org/aldesantis/hertz-email)
 [![Dependency Status](https://gemnasium.com/badges/github.com/aldesantis/hertz-email.svg)](https://gemnasium.com/github.com/aldesantis/hertz-email)
 [![Coverage Status](https://coveralls.io/repos/github/aldesantis/hertz-email/badge.svg?branch=master)](https://coveralls.io/github/aldesantis/hertz-email?branch=master)
-[![Maintainability](https://api.codeclimate.com/v1/badges/e51e8d7489eb72ab97ba/maintainability)](https://codeclimate.com/github/aldesantis/hertz-email/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/c71c1821b56b288ea71a/maintainability)](https://codeclimate.com/github/aldesantis/hertz-email/maintainability)
 
 This is a [Hertz](https://github.com/alessandro1997/hertz) courier for sending email notifications to your users through
 ActionMailer.
