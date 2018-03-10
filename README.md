@@ -1,12 +1,12 @@
-# Hertz::Courier::Email
+# Hertz::Email
 
 [![Build Status](https://travis-ci.org/aldesantis/hertz-email.svg?branch=master)](https://travis-ci.org/aldesantis/hertz-email)
 [![Dependency Status](https://gemnasium.com/badges/github.com/aldesantis/hertz-email.svg)](https://gemnasium.com/github.com/aldesantis/hertz-email)
 [![Coverage Status](https://coveralls.io/repos/github/aldesantis/hertz-email/badge.svg?branch=master)](https://coveralls.io/github/aldesantis/hertz-email?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/c71c1821b56b288ea71a/maintainability)](https://codeclimate.com/github/aldesantis/hertz-email/maintainability)
 
-This is a [Hertz](https://github.com/alessandro1997/hertz) courier for sending email notifications to your users through
-ActionMailer.
+This is a [Hertz](https://github.com/aldesantis/hertz) courier for sending email notifications to 
+your users through ActionMailer.
 
 ## Installation
 
@@ -31,11 +31,11 @@ $ gem install hertz-email
 Then, run the installer generator:
 
 ```console
-$ rails g hertz:courier:email:install
+$ rails g hertz:email:install
 ```
 
-You will also need to expose the `hertz_email` method in your receiver class. This can be either a single email or an 
-array of emails:
+You will also need to expose the `hertz_email` method in your receiver class. This can be either a 
+single email or an array of emails:
 
 ```ruby
 class User < ActiveRecord::Base
@@ -47,9 +47,9 @@ class User < ActiveRecord::Base
 end
 ```
 
-If `#hertz_email` returns an empty value (i.e. `false`, `nil`, an empty string or an empty array) at the time the job is 
-executed, the notification will not be delivered. This allows you to programmatically enable/disable email notifications 
-for a user:
+If `#hertz_email` returns an empty value (i.e. `false`, `nil`, an empty string or an empty array) at 
+the time the job is executed, the notification will not be delivered. This allows you to
+programmatically enable/disable email notifications for a user:
 
 ```ruby
 class User
@@ -93,7 +93,8 @@ class CommentNotification < Hertz::Notification
 end
 ```
 
-You may also pass more options to the `#mail` method of the mailer by defining a `#email_options` method:
+You may also pass more options to the `#mail` method of the mailer by defining a `#email_options` 
+method:
 
 ```ruby
 class CommentNotification < Hertz::Notification
@@ -106,8 +107,9 @@ class CommentNotification < Hertz::Notification
 end
 ```
 
-Finally, you should create a template for every notification you send by email. For `CommentNotification` you'd create a
-template at `app/views/hertz/courier/email/notification_mailer/comment_notification.html.erb`:
+Finally, you should create a template for every notification you send by email. For 
+`CommentNotification` you'd create a template at 
+`app/views/hertz/email/notification_mailer/comment_notification.html.erb`:
 
 ```erb
 <p>Hey <%= @notification.receiver.hertz_email %>,</p>
@@ -121,7 +123,7 @@ to prevent double deliveries.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/alessandro1997/hertz-email.
+Bug reports and pull requests are welcome on GitHub at https://github.com/aldesantis/hertz-email.
 
 ## License
 

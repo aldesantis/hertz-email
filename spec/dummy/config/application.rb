@@ -3,7 +3,7 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 Bundler.require(*Rails.groups)
-require "hertz/courier/email"
+require "hertz/email"
 
 module Dummy
   class Application < Rails::Application

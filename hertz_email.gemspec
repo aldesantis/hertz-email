@@ -3,12 +3,12 @@
 $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 
 # Maintain your gem's version:
-require 'hertz/courier/email/version'
+require 'hertz/email/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = 'hertz-email'
-  s.version     = Hertz::Courier::Email::VERSION
+  s.version     = Hertz::Email::VERSION
   s.authors     = ['Alessandro Desantis']
   s.email       = ['desa.alessandro@gmail.com']
   s.homepage    = 'https://github.com/alessandro1997/hertz-email'
