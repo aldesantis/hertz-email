@@ -63,12 +63,12 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 First stable release.
 
-[Unreleased]: https://github.com/aldesantis/hertz/compare/v2.0.1...HEAD
-[2.0.1]: https://github.com/aldesantis/hertz/compare/v2.0.0...v2.0.1
-[2.0.0]: https://github.com/aldesantis/hertz/compare/v1.1.1...v2.0.0
-[1.1.1]: https://github.com/aldesantis/hertz/compare/v1.1.0...v1.1.1
-[1.1.0]: https://github.com/aldesantis/hertz/compare/v1.0.3...v1.1.0
-[1.0.3]: https://github.com/aldesantis/hertz/compare/v1.0.2...v1.0.3
-[1.0.2]: https://github.com/aldesantis/hertz/compare/v1.0.1...v1.0.2
-[1.0.1]: https://github.com/aldesantis/hertz/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/aldesantis/hertz/compare/v0.1.0...v1.0.0
+[Unreleased]: https://github.com/aldesantis/hertz-email/compare/v2.0.1...HEAD
+[2.0.1]: https://github.com/aldesantis/hertz-email/compare/v2.0.0...v2.0.1
+[2.0.0]: https://github.com/aldesantis/hertz-email/compare/v1.1.1...v2.0.0
+[1.1.1]: https://github.com/aldesantis/hertz-email/compare/v1.1.0...v1.1.1
+[1.1.0]: https://github.com/aldesantis/hertz-email/compare/v1.0.3...v1.1.0
+[1.0.3]: https://github.com/aldesantis/hertz-email/compare/v1.0.2...v1.0.3
+[1.0.2]: https://github.com/aldesantis/hertz-email/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/aldesantis/hertz-email/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/aldesantis/hertz-email/compare/v0.1.0...v1.0.0
