@@ -1,7 +1,6 @@
 # Hertz::Email
 
 [![Build Status](https://travis-ci.org/aldesantis/hertz-email.svg?branch=master)](https://travis-ci.org/aldesantis/hertz-email)
-[![Dependency Status](https://gemnasium.com/badges/github.com/aldesantis/hertz-email.svg)](https://gemnasium.com/github.com/aldesantis/hertz-email)
 [![Coverage Status](https://coveralls.io/repos/github/aldesantis/hertz-email/badge.svg?branch=master)](https://coveralls.io/github/aldesantis/hertz-email?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/c71c1821b56b288ea71a/maintainability)](https://codeclimate.com/github/aldesantis/hertz-email/maintainability)
 
