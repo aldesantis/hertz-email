@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    hertz-email (2.0.0)
-      hertz (~> 1.0)
+    hertz-email (2.0.1)
+      hertz (~> 2.0)
       rails (>= 4.2.0, < 6)
 
 GEM
@@ -76,7 +76,7 @@ GEM
       ruby-progressbar (~> 1.4)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-    hertz (1.0.2)
+    hertz (2.0.0)
       rails (>= 4.0.0, < 6.0.0)
     i18n (1.1.0)
       concurrent-ruby (~> 1.0)

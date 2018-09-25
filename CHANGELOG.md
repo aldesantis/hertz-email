@@ -7,6 +7,14 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [2.0.1]
+
+### Fixed
+
+- Fixed incompatibility with Hertz 2.0
+
+## [2.0.0] (yanked)
+
 ### Changed
 
 - Changed namespace to `Hertz::Email`
@@ -55,7 +63,9 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 First stable release.
 
-[Unreleased]: https://github.com/aldesantis/hertz/compare/v1.1.1...HEAD
+[Unreleased]: https://github.com/aldesantis/hertz/compare/v2.0.1...HEAD
+[2.0.1]: https://github.com/aldesantis/hertz/compare/v2.0.0...v2.0.1
+[2.0.0]: https://github.com/aldesantis/hertz/compare/v1.1.1...v2.0.0
 [1.1.1]: https://github.com/aldesantis/hertz/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/aldesantis/hertz/compare/v1.0.3...v1.1.0
 [1.0.3]: https://github.com/aldesantis/hertz/compare/v1.0.2...v1.0.3
