@@ -19,8 +19,8 @@ Gem::Specification.new do |s|
   s.test_files = Dir['test/**/*']
 
   s.add_dependency 'hertz', '~> 2.0'
-  s.add_dependency 'rails', '>= 4.2.0', '< 6'
 
+  s.add_development_dependency 'combustion'
   s.add_development_dependency 'coveralls'
   s.add_development_dependency 'database_cleaner'
   s.add_development_dependency 'factory_bot_rails'

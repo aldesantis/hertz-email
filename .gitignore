@@ -8,3 +8,4 @@
 /spec/examples.txt
 .ruby-version
 /coverage
+Gemfile.lock
