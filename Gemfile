@@ -8,4 +8,4 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'hertz', github: 'aldesantis/hertz'
-gem 'rails', ENV.fetch('RAILS_VERSION', '~> 6.0')
+gem 'rails', ENV.fetch('RAILS_VERSION', '~> 6.0.0')
