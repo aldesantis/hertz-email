@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rspec/active_job'
 
 RSpec.configure do |config|
