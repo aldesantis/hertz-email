@@ -11,6 +11,10 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 - Added Rails 6 support!
 
+### Changed
+
+- Updated pg dependency to `~> 1.2'`
+
 ## [2.0.1]
 
 ### Fixed
