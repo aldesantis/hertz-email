@@ -7,6 +7,8 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [2.1.0]
+
 ### Added
 
 - Added Rails 6 support!
@@ -71,7 +73,8 @@ adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 First stable release.
 
-[Unreleased]: https://github.com/aldesantis/hertz-email/compare/v2.0.1...HEAD
+[Unreleased]: https://github.com/aldesantis/hertz-email/compare/v2.1.0...HEAD
+[2.1.0]: https://github.com/aldesantis/hertz-email/compare/v2.0.1...v2.1.0
 [2.0.1]: https://github.com/aldesantis/hertz-email/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/aldesantis/hertz-email/compare/v1.1.1...v2.0.0
 [1.1.1]: https://github.com/aldesantis/hertz-email/compare/v1.1.0...v1.1.1
