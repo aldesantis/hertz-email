@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'factory_bot_rails'
   s.add_development_dependency 'faker'
   s.add_development_dependency 'fuubar'
+  s.add_development_dependency 'gem-release'
   s.add_development_dependency 'pg', '~> 1.2'
   s.add_development_dependency 'rspec-activejob'
   s.add_development_dependency 'rspec-rails'
